@@ -23,11 +23,17 @@
     background: no-repeat center center/cover;
     width: 18rem;
   }
+  #card {
+    max-width: 100%;
+  }
   .container {
     margin: 0;
   }
 }
 @media (max-width: 768px) {
+  #card {
+    max-width: 100%;
+  }
   .container {
     margin: 0;
   }
