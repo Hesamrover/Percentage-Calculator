@@ -18,10 +18,20 @@
     height: 70px;
     border-radius: 50%;
   }
+
+  .img {
+    background: no-repeat center center/cover;
+    width: 18rem;
+  }
 }
 @media (max-width: 768px) {
+  .img {
+    background: no-repeat center center/cover;
+    width: 13rem;
+  }
   .flex {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   #clear {
