@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+  .flex {
+    display: block;
+  }
+
+  #clear {
+    width: 140px !important;
+    height: 30px;
+    font-size: small;
+    border-radius: 0.3rem;
+  }
+
+  .form-group .btn {
+    background: gold;
+    border: white 1px solid;
+    color: black !important;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .flex {
+    display: block;
+  }
+
+  #clear {
+    width: 140px !important;
+    height: 30px;
+    font-size: small;
+    border-radius: 0.3rem;
+  }
+
+  .form-group .btn {
+    background: gold;
+    border: white 1px solid;
+    color: black !important;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+}
